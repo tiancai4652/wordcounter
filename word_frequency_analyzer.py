@@ -76,7 +76,7 @@ def main():
         processed_text = process_text(text)
         
         # 获取词频统计
-        word_frequencies = get_word_frequency(processed_text)
+        word_frequencies = get_word_frequency(processed_text,None)
         
         # 保存结果到文件
         result_file = save_results(word_frequencies, file_path)

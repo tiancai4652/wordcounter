@@ -1,0 +1,23 @@
+# Python编译文件
+__pycache__/
+*.py[cod]
+
+# C扩展模块
+*.so
+
+# 打包和分发文件
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller生成的spec文件
+*.spec
+
+# 虚拟环境
+venv/
+ENV/
+env/ 
+dist/小羊英文词频统计工具.exe
+
+
